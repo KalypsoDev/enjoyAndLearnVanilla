@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario para añadir matrícula</title>
-    <link rel="stylesheet" href="../../css/enjoyLearnSchool.css">
+    <link rel="stylesheet" href="../../css/index.css">
 </head>
 
 <body>
