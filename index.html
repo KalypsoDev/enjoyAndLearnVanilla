@@ -54,7 +54,10 @@
         <section class="actionsCard">
           <h2>Alumnos</h2>
           <img src="img/students.png" alt="Alumnos" />
-          <a href="php/alumnos/formulario_insertar_alumno.php" class="create">
+          <a
+            href="php/alumnos/formulario_insertar_alumno.php"
+            class="btn create"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -66,26 +69,9 @@
                 fill="currentColor"
                 d="M11 17h2v-4h4v-2h-4V7h-2v4H7v2h4zm1 5q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"
               /></svg
-            >Añadir nuevo alumno</a
+            ><span>Añadir nuevo alumno</span></a
           >
-          <button class="create">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="32"
-              height="32"
-              viewBox="0 0 24 24"
-            >
-              <!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE -->
-              <path
-                fill="currentColor"
-                d="M11 17h2v-4h4v-2h-4V7h-2v4H7v2h4zm1 5q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"
-              />
-            </svg>
-            <a href="php/alumnos/formulario_insertar_alumno.php"
-              >Añadir nuevo alumno</a
-            >
-          </button>
-          <button class="read">
+          <a href="php/alumnos/formulario_ver_alumnos.php" class="btn read">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -98,13 +84,18 @@
                 d="M12 16q1.875 0 3.188-1.312T16.5 11.5t-1.312-3.187T12 7T8.813 8.313T7.5 11.5t1.313 3.188T12 16m0-1.8q-1.125 0-1.912-.788T9.3 11.5t.788-1.912T12 8.8t1.913.788t.787 1.912t-.787 1.913T12 14.2m0 4.8q-3.35 0-6.113-1.8t-4.362-4.75q-.125-.225-.187-.462t-.063-.488t.063-.488t.187-.462q1.6-2.95 4.363-4.75T12 4t6.113 1.8t4.362 4.75q.125.225.188.463t.062.487t-.062.488t-.188.462q-1.6 2.95-4.362 4.75T12 19"
               />
             </svg>
-            <a href="php/alumnos/formulario_ver_alumnos.php">Ver alumnos</a>
-          </button>
+            <span>Ver alumnos</span>
+          </a>
         </section>
+
         <section class="actionsCard">
           <h2>Profesores</h2>
           <img src="img/teachers.png" alt="Profesores" />
-          <button class="create">
+
+          <a
+            href="php/profesores/formulario_insertar_profesor.php"
+            class="btn create"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -117,11 +108,13 @@
                 d="M11 17h2v-4h4v-2h-4V7h-2v4H7v2h4zm1 5q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"
               />
             </svg>
-            <a href="php/profesores/formulario_insertar_profesor.php"
-              >Añadir nuevo profesor</a
-            >
-          </button>
-          <button class="read">
+            <span>Añadir nuevo profesor</span>
+          </a>
+
+          <a
+            href="php/profesores/formulario_ver_profesores.php"
+            class="btn read"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -134,15 +127,15 @@
                 d="M12 16q1.875 0 3.188-1.312T16.5 11.5t-1.312-3.187T12 7T8.813 8.313T7.5 11.5t1.313 3.188T12 16m0-1.8q-1.125 0-1.912-.788T9.3 11.5t.788-1.912T12 8.8t1.913.788t.787 1.912t-.787 1.913T12 14.2m0 4.8q-3.35 0-6.113-1.8t-4.362-4.75q-.125-.225-.187-.462t-.063-.488t.063-.488t.187-.462q1.6-2.95 4.363-4.75T12 4t6.113 1.8t4.362 4.75q.125.225.188.463t.062.487t-.062.488t-.188.462q-1.6 2.95-4.362 4.75T12 19"
               />
             </svg>
-            <a href="php/profesores/formulario_ver_profesores.php"
-              >Ver profesores</a
-            >
-          </button>
+            <span>Ver profesores</span>
+          </a>
         </section>
+
         <section class="actionsCard">
           <h2>Cursos</h2>
           <img src="img/enjoyAndLearnLanguageSchoolLogo.png" alt="Cursos" />
-          <button class="create">
+
+          <a href="php/cursos/formulario_insertar_curso.php" class="btn create">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -155,11 +148,10 @@
                 d="M11 17h2v-4h4v-2h-4V7h-2v4H7v2h4zm1 5q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"
               />
             </svg>
-            <a href="php/cursos/formulario_insertar_curso.php"
-              >Añadir nuevo curso</a
-            >
-          </button>
-          <button class="read">
+            <span>Añadir nuevo curso</span>
+          </a>
+
+          <a href="php/cursos/formulario_ver_cursos.php" class="btn read">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -172,13 +164,18 @@
                 d="M12 16q1.875 0 3.188-1.312T16.5 11.5t-1.312-3.187T12 7T8.813 8.313T7.5 11.5t1.313 3.188T12 16m0-1.8q-1.125 0-1.912-.788T9.3 11.5t.788-1.912T12 8.8t1.913.788t.787 1.912t-.787 1.913T12 14.2m0 4.8q-3.35 0-6.113-1.8t-4.362-4.75q-.125-.225-.187-.462t-.063-.488t.063-.488t.187-.462q1.6-2.95 4.363-4.75T12 4t6.113 1.8t4.362 4.75q.125.225.188.463t.062.487t-.062.488t-.188.462q-1.6 2.95-4.362 4.75T12 19"
               />
             </svg>
-            <a href="php/cursos/formulario_ver_cursos.php">Ver cursos</a>
-          </button>
+            <span>Ver cursos</span>
+          </a>
         </section>
+
         <section class="actionsCard">
           <h2>Matrículas</h2>
           <img src="img/enrollments.png" alt="Matrículas" />
-          <button class="create">
+
+          <a
+            href="php/matriculas/formulario_insertar_matricula.php"
+            class="btn create"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -191,11 +188,13 @@
                 d="M11 17h2v-4h4v-2h-4V7h-2v4H7v2h4zm1 5q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"
               />
             </svg>
-            <a href="php/matriculas/formulario_insertar_matricula.php"
-              >Añadir nueva matrícula</a
-            >
-          </button>
-          <button class="read">
+            <span>Añadir nueva matrícula</span>
+          </a>
+
+          <a
+            href="php/matriculas/formulario_ver_matriculas.php"
+            class="btn read"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -208,10 +207,8 @@
                 d="M12 16q1.875 0 3.188-1.312T16.5 11.5t-1.312-3.187T12 7T8.813 8.313T7.5 11.5t1.313 3.188T12 16m0-1.8q-1.125 0-1.912-.788T9.3 11.5t.788-1.912T12 8.8t1.913.788t.787 1.912t-.787 1.913T12 14.2m0 4.8q-3.35 0-6.113-1.8t-4.362-4.75q-.125-.225-.187-.462t-.063-.488t.063-.488t.187-.462q1.6-2.95 4.363-4.75T12 4t6.113 1.8t4.362 4.75q.125.225.188.463t.062.487t-.062.488t-.188.462q-1.6 2.95-4.362 4.75T12 19"
               />
             </svg>
-            <a href="php/matriculas/formulario_ver_matriculas.php"
-              >Ver matrículas</a
-            >
-          </button>
+            <span>Ver matrículas</span>
+          </a>
         </section>
       </section>
     </main>
