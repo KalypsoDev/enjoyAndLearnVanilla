@@ -15,12 +15,6 @@
                     alt="Logo de Enjoy and Learn" id="logo"></a>
             <h1>Enjoy And Learn Language School</h1>
         </section>
-        <nav>
-            <a href="../../pages/nuestra-historia.html">Nuestra historia</a>
-            <a href="../../pages/nuestro-equipo.html">Nuestro equipo</a>
-            <a href="../../pages/valoraciones.html">Valoraciones</a>
-            <a href="../../pages/contacto.html">Contacto</a>
-        </nav>
     </header>
     <main>
         <h2 id="databaseTitle">Base de datos: añadir nuevo alumno</h2>
