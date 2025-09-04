@@ -6,7 +6,7 @@
 
 **Enjoy & Learn** is a playful and intuitive web application designed to support the management of a children's language academy. Focused on creating a fun and enriching learning environment, this tool simplifies administrative tasks so educators can focus on what matters most: **helping kids enjoy learning English and French**.
 
-Whether you're managing students, teachers, courses, or enrollments, this app gives you full control over the essential data of your academy — all in one place.
+Whether you're managing students, teachers, courses or enrollments, this app gives you full control over the essential data of your academy — all in one place.
 
 ## 🌟 Philosophy
 
@@ -23,12 +23,41 @@ This app is built to support that mission — with structure, clarity, and heart
 * 👩‍🏫 **Manage teacher records** with ease
 * 📚 **Create and organize language courses**
 * 📝 **Handle course enrollments** efficiently
+
+## 📋 Project Management
+
+This project is managed following **Agile methodologies**, with detailed [Jira](https://www.atlassian.com/software/jira?referer=jira.com) tickets that are properly grouped under their corresponding **epics**.  
+
+Each ticket includes:
+
+* A clear **description**  
+* A well-defined **user story**  
+* Explicit **acceptance criteria**  
+
+The workflow is organized into a backlog, timeline, and active sprints.  
+To illustrate the process, this repository includes screenshots of:
+
+* The **backlog**:
   
+![Backlog](docs/jira/backlogJira.png)
+
+* The **timeline**:
+
+![Timeline](docs/jira/timelineJira.png)
+
+* The **current sprint**:
+
+![Current sprint](docs/jira/currentSprintJira.png)
+
+* An example of a **detailed ticket**:
+
+![Detailed Ticket](docs/jira/detailedTicket.png)
+
 ## 🗂️ Data Model Diagram
 
 Here you can see the ER Diagram:
 
-![ER Diagram](img/enjoyAndLearnERDiagram.png)
+![ER Diagram](docs/bbdd/enjoyAndLearnERDiagram.png)
 
 ## 🛠️ Tech stack
 
