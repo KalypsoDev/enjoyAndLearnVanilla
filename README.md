@@ -89,7 +89,7 @@ Here you can see the ER Diagram:
 
    * Open [phpMyAdmin](http://localhost/phpmyadmin)
    * Create a new database (e.g., enjoyandlearn)
-   * Import the file `documents/escuela_idiomas.sql`.
+   * Import the file `docs/bbdd/escuela_idiomas.sql`.
 
 4. Open your browser at [localhost](http://localhost/enjoyAndLearnVanilla/index.html)
 
